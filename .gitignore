@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Build artefacts
+dist/
+build/
+
+# FAISS/vectorstore binaries
+app/vectorstore/*.faiss
+app/vectorstore/*.index
+
+# Mobile build
+mobile/build/
+
+# IDE
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# OneDrive files
+~$*
+
